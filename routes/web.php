@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('upload');
+});
+
+Route::get('/technical_reports', function () {
+    return view('technical_reports');
 });
